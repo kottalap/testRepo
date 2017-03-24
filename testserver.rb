@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'json'
 xdcdsc
-post '/event_handler'    do 
+post '/vent_handler'    do 
   
   payload = JSON.parse(params[:payload])
   "Well, it worked!"
