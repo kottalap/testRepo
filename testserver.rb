@@ -1,8 +1,8 @@
 require 'sinatra'
 require 'json'
 
-post '/vent_handler'    do 
+  payload =   JSON.parse(params[:payload])
+  "Well, it worked!"
+end    
 
-  
-  payload = JSON.parse(params[:payload])
 
