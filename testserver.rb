@@ -1,6 +1,8 @@
 require 'sinatra'
-require 'json'
-xdcdscff
+
+require 'json'     
+
+
 post '/event_handler'    do 
   
   payload = JSON.parse(params[:payload])
