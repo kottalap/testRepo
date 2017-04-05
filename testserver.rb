@@ -4,6 +4,4 @@ xdcdsc
 post '/event_handler'    do 
   
   payload = JSON.parse(params[:payload])
-  "Well, it workevfdcvdd!"
-end    
 
