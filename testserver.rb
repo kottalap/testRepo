@@ -1,9 +1,8 @@
 require 'sinatra'
+require 'json'
 
-require 'json'     
+post '/vent_handler'    do 
 
-
-post '/event_handler'    do 
   
   payload = JSON.parse(params[:payload])
 
