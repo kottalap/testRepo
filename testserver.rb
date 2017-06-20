@@ -6,5 +6,3 @@ require 'json'
 end    
 fsdfsdfs
 
-gfdgdf
-scsdc
